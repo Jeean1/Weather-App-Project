@@ -1,0 +1,41 @@
+* {
+	font-family: monospace;
+	font-size: 20px;
+}
+
+
+
+.container {
+	width: auto;
+	display: flex;
+}
+
+
+
+.card-weather {
+	margin: 5% auto;
+	width: 35%;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10%;
+	background: rgba(170, 178, 179, 0.615);
+	padding: 1%;
+}
+
+.card-weather ul {
+	list-style: none;
+	text-align: start;
+	margin: 6% 30%;
+}
+
+.card-weather ul li {
+	margin: 10% 0%;
+}
+
+
+
+.card-weather button {
+	margin: 10%;
+	height: 10%;
+	border-radius: 35%;
+}
